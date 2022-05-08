@@ -1,0 +1,193 @@
+body{
+  font:15px/ 1.5 Arial,sans-serif;
+  margin:0;
+  padding:3%;
+  background color:pink;
+}
+
+*{
+  overflow-x: hidden;
+}
+/*global*/
+/* .container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+} */
+/*header*/
+header{
+  background: #ff2f9a;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-height: 100px;
+  border-top: #b9ebff 4px solid;
+  border-bottom: #b9ebff 4px solid;
+}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+header li{
+  float: left;
+  display: inline;
+  padding:0 20px 0 20px;
+}
+header #branding{
+  float: left;
+}
+
+header nav{
+  float: right;
+  margin top: 10px;
+
+}
+header .highlight,header .current a{
+  color: #b9ebff;
+  font-weight: bold;
+}
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+
+}
+#showcase{
+  min-height: 400px;
+  text-align: center;
+  color: #ffffff;
+  /* background:#f5f5f5; */
+  background: #ff2f9a;
+}
+
+
+#showcase p{
+  font-size: 20px;
+}
+/*boxes*/
+#boxes{
+  margin-top: 20px;
+}
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30px;
+  padding: 10px;
+}
+#boxes.box img{
+  width: 20px;
+}
+
+#hero{
+  /* height: 100vh; */
+
+  background: whitesmoke;
+  padding: 6%;
+}
+
+p{
+  color: #263238;
+  font-size: 100px;
+  font-family: monospace;
+  padding: 2%;
+  margin-left: 3%;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  /* Add Margin Top to the Paragraph */
+}
+h1{
+  font-size: 30px;
+  color: #black;
+  font-style: italic;
+
+}
+h2{
+  font-size: 30px;
+  color: #black;
+  font-style: italic;
+
+}
+#bio{
+  font-size:50px;
+  color:#ff69b4;
+
+
+}
+
+}
+
+#hobby{
+  font-size:40px;
+}
+span{
+
+  color: #ff69b4;
+}
+
+#hero_img{
+  border-radius: 50%;
+  float: right
+}
+
+
+
+
+#footer{
+  background: #37474f;
+  color:#f5f5f5;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 0.2rem;
+
+}
+
+#contact_header{
+  font-size: 30px;
+  color:#fff;
+}
+
+
+#pictures{
+  padding: 7%;
+}
+
+.card-text{
+    font-size: 17px;
+}
+
+#card-info{
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+  float:right;
+  font-family:monospace;
+}
+
+/* Footer Stylings */
+#contact_us{
+  padding: 5%;
+  margin: 40px;
+  float:right;
+  color:red;
+}
+
+#fam_img{
+  margin-left: 25%;
+}
+#fri_img{
+
+}
+.footer-text{
+  padding: 10px;
+  margin: 10px;
+  color:red;
+  background: green;
+}
+.pad_footer{
+  padding: 5%;
+}
+
+#copyright{
+  font-size: 20px;
+}
